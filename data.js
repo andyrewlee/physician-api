@@ -45,6 +45,21 @@ const users = [
     first_name: 'Pam',
     last_name: 'Poovey',
   },
+  {
+    id: '4986f559-06be-47dc-a129-7b89a407844e',
+    first_name: 'Kobe',
+    last_name: 'Bryant',
+  },
+  {
+    id: '3338c324-61ea-48e4-b11f-b4d5ecd30f1a',
+    first_name: 'Lebron',
+    last_name: 'James',
+  },
+  {
+    id: 'b0124a72-8956-4516-9c30-28269a82c16e',
+    first_name: 'Paul',
+    last_name: 'George',
+  },
 ]
 
 const patients = [
@@ -78,6 +93,24 @@ const patients = [
     physician_id: '52b7eed4-a42c-4da6-8ced-d8ec2dc9faf8',
     patient_type_id: 'c98dfce3-541b-4ab6-a96c-4937f1df411b' ,
   },
+  {
+    id: '6daaa01b-49f1-43c6-82a1-f949188dfae6',
+    user_id: '4986f559-06be-47dc-a129-7b89a407844e',
+    physician_id: 'fd0ff6a0-030a-41be-a706-480861e56e04',
+    patient_type_id: 'c98dfce3-541b-4ab6-a96c-4937f1df411b' ,
+  },
+  {
+    id: 'd59090d0-9483-4060-949c-4a7c2cf6ae58',
+    user_id: '3338c324-61ea-48e4-b11f-b4d5ecd30f1a',
+    physician_id: 'fd0ff6a0-030a-41be-a706-480861e56e04',
+    patient_type_id: 'c98dfce3-541b-4ab6-a96c-4937f1df411b' ,
+  },
+  {
+    id: 'ca2e4558-e72b-4f0c-a373-2c8162eefa49',
+    user_id: 'b0124a72-8956-4516-9c30-28269a82c16e',
+    physician_id: '83c103eb-d7aa-48e5-a51c-8dc786f3c52b',
+    patient_type_id: 'c98dfce3-541b-4ab6-a96c-4937f1df411b' ,
+  },
 ];
 
 const patientTypes = [
@@ -92,6 +125,21 @@ const patientTypes = [
 ];
 
 const appointments = [
+  {
+    id: '9e0ecb48-ba8e-459d-8fee-5accdb3c66ac',
+    patient_id: '6daaa01b-49f1-43c6-82a1-f949188dfae6',
+    time: '8:00AM',
+  },
+  {
+    id: '5cffc68c-fce9-4943-9602-6dc942f5d99f',
+    patient_id: 'd59090d0-9483-4060-949c-4a7c2cf6ae58',
+    time: '8:00AM',
+  },
+  {
+    id: '00823198-a55a-4f19-89db-3a27e6a05882',
+    patient_id: 'ca2e4558-e72b-4f0c-a373-2c8162eefa49',
+    time: '8:00AM',
+  },
   {
     id: '7d848637-4b12-4951-bcae-682784cf568c',
     patient_id: '5cbaeb42-c70f-4342-8c22-e7d377ea94c6',
