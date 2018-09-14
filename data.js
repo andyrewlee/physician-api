@@ -3,16 +3,19 @@ const physicians = [
     id: 'fd0ff6a0-030a-41be-a706-480861e56e04',
     first_name: 'Julius',
     last_name: 'Hibbert',
+    email: 'hibbert@notablehealth.com',
   },
   {
     id: '52b7eed4-a42c-4da6-8ced-d8ec2dc9faf8',
     first_name: 'Algernop',
     last_name: 'Krieger',
+    email: 'krieger@notablehealth.com',
   },
   {
     id: '83c103eb-d7aa-48e5-a51c-8dc786f3c52b',
     first_name: 'Nick',
     last_name: 'Riviera',
+    email: 'riviera@notablehealth.com',
   },
 ];
 
